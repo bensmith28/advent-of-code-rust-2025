@@ -12,6 +12,7 @@ const TEST: &str = "\
 <TEST-INPUT>
 "; // TODO: Add the test input
 
+#[allow(unexpected_cfgs)]
 fn main() -> Result<()> {
     start_day(DAY);
 
